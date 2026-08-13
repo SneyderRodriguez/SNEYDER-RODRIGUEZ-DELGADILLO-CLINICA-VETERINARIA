@@ -3,7 +3,7 @@ public abstract class Animal {
     protected int edadAnimal;
     protected String nombreDuenno;
 
-    abstract double calcularCostoConsulta();
+    public abstract double calcularCostoConsulta();
 
     public Animal(String nombreAnimal, int edadAnimal, String nombreDuenno) {
         this.nombreAnimal = nombreAnimal;
